@@ -12,13 +12,13 @@ class TestCase(unittest.TestCase):
         result = fibonacci(test)
         self.assertEqual(result, 1)
     
-    def testcase2(self):
+    def testcase2_pass(self):
         #testcase which should pass
         test = 6
         result = fibonacci(test)
         self.assertEqual(result, 8)
     
-    def testcase3(self):
+    def testcase3_pass(self):
         #testcase which should pass
         test = 12
         result = fibonacci(test)

@@ -5,13 +5,13 @@ import unittest
 from fibonacci_function import fibonacci
 
 class TestCase(unittest.TestCase):
-    def testcase1(self):
+    def testcase1_fail(self):
     
         test = -2
         result = fibonacci(test)
         self.assertEqual(result, 500)
     
-    def testcase2(self):
+    def testcase2_fail(self):
        
         test = 1.5
         result = fibonacci(test)
