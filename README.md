@@ -1,1 +1,1 @@
-# IMT2020535_SoftwareEngineering_Assignment6
+# IMT2020535_SE_Assignment6
